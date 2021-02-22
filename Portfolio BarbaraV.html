@@ -3,94 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbara Villegas  - Portafolio</title>
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header> 
+    <div class="header1">
+        <input  type="checkbox" id="btn-menu" >
+        <label for="btn-menu"><img src="btn menu.png">
+        </label>
+
+        <nav>           
+            <ul class="list-menu">
+                <li><a href="#saudar">Sobre</a></li>
+                <li><a href="#primeiro">Formação</a></li>
+                <li><a href="#segundo">Cursos</a></li>
+                <li><a href="#terceiro">Experiência</a></li>
+                <li><a href="#quarto">Projetos</a></li>
+                <li><a href="#quinto">Contato</a></li>
+        </nav>
+    </div>
+
+</header>
+    <!-----------Header-------------->
         <div>
-            
-            <div align="right"><img src="https://img.icons8.com/ios/452/source-code.png" alt="Logo" width="100"></div>
-            
-            <h1 align="center">Barbara Villegas</h1>
-            <h1 align="center">Desarrollo Web</h1>
-            <nav>
-                <div align="center"><a href="#Sobremim">Sobre Mim</a>
-                <a href="#Meutrabalho">Meu Trabalho</a>
-                <a href="#Falemos">Falemos</a>
-                <a href="#Minhasredes">Minhas Redes</a>
-
-            </nav>
-            <hr color="grey" size=3>
-
-            <div align="center"><img src="Banner.jpg" alt="Banner 1" width="800"></div>
-
-
-
-            
+            <img class="banner" src="banner-simple1.png">
+        </div>  
+        <section>
         
- <div id="Home">
+       <div class="perfil1">
+        <img class="perfil" src="foto-perfil.jpg" alt="foto">
+        </div>
+        <div class="icons">
 
+            <a href="https://br.linkedin.com/in/barbaravillegas" target="_blank" rel="noopener"> <img class="icon1"  src="link-icon.png" alt="link-icon" ></a>
+        
+            <a  href="https://es.stackoverflow.com/users/213880/barbara-villegas" target="_blank" rel="noopener"> <img class="icon" src="stackover.png" alt="icon stackoverflow"></a>
+
+            <a  href="https://github.com/brabikiu" target="_blank" rel="noopener"> <img class="icon1" src="Github-icon.png" alt="icon github"></a>
+
+
+        </div>
+<!-----------Perfil-------------->
+        <div class="title">
+            <h1 class="name"><span>Barbara Villegas</span></h1>
+            <h2 class="carreira"><span>Full-Stack Student Developer</span></h2>
+        </div>    
+        
+        <section class="content">
+
+            <h2 id="saudar" class="saudar">Olá!</h2>
             
-                     
-            <section>
-               <div align="left"><img src="Barbara Villegas Foto 1.jpeg" alt="Foto Entrada shala 1" width="200"></div>
-               <h3 align="left" id="#Sobremim">SOBRE MIM</h3> 
-                <p>Sou licenciado em Administração em Marketing</p>
-                <p>Me especializei em Pesquisa de Mercado e Mídia Digital</p>
-                 <p>Eu gosto muito de Desenvolvimento e ##RRSS</p>
-                    <p>Minha paixão pelo desenvolvimento começou como um hobby há mais de 10 anos e agora eu decidi ser um desenvolvedor de back-end.</P>
-                    </p>Tenho conhecimento de HTML, experiẽncia em Wordpress e atualmemte estou aprendendo CCS e outros linguguagens pelo medio da Toti.</p>
-                    </section> 
-               
-               
-                </section>
-                <section id="#Meutrabalho">
-                    <h2 align="center">PROJETOS DESENVOLVIMENTO WEB</h2>
+            
+            <p class="apresentação">Eu su Bárbara,Venezuelana, de profisião Administrador em Marketing com mais de 10 anos de experiencia especialista em gerenciamento de redes sociais e atualmente estudante de desenvolvimento web com a plataforma de ensino <a href="https://totidiversidade.com.br/"target="_blank" valor="noopener">Toti Diversidade</a> uma plataforma de ensino que forma refugiados e imigrante.</p>
 
+        
+        </section>
+<!-----------Formação------------->
+<section class="educaçao">
+    <h2 id="primeiro">Formaçao</h2>
+
+    <hr class="caja1"></hr>
+    <div class="alig3"> 
+        <p class="item1">2006</p>
+        <p class="item2">BACHILLER CIENCIAS</p>
+        <p class="item3">INSTITUTO CENTRAL DE EDUCACION.</p>
+    </div>
+
+    <hr class="caja2"></hr>
+    <div class="alig3">
+        <p class="item1">2017-2019</p>
+        <p class="item2">ADMINISTRAÇAO, Menção em marketing </p>
+        <p class="item3">UNIVERSIDAD NACIONAL EXPERIMENTAL "SIMON RODRIGUEZ" <a href="http://unesrspr.ddns.net/" target="_blank" rel="noopener"> (UNESR)</a></p>
+    </div>
+</section>
+<!-----------Quarto-------------->
+<section class="cursos">
+    <h2 id="segundo">Cursos</h2>
+    
+    <hr class="caja3"></hr>
+    <div class="alig3"> 
+        <p class="item1">Enero 2021 Até atualidade</p>
+        <p class="item2">Programação Full Stack</p>
+        <p class="item3">TOTI DIVERSIDADE</p>
+    </div> 
+    
+    <hr class="caja2"></hr>
+    <div class="alig3">
+        <p class="item1">Febrero 2021 Até atualidade</p>
+        <p class="item2">Fundamentos de Lógica de Programação </p>
+        <p class="item3">Fundação Bradesco</p></div>
+    </div>
+       
+    </div> 
+</section> 
+<!-----------Quinto-------------->
+
+<section class="experiencia">
+    <h2 id=terceiro>Experiência</h2>
+
+    <hr class="caja1"></hr>
+    <div class="alig3"> 
+        <p class="item1">Sep 2012- Até atualidade</p>
+        <p class="item2">Gestão de Mídias Sociais</p>
+        <p class="item3">FREELANCER.</p>
+    </div>
+
+    <hr class="caja2"></hr>
+    <div class="alig3">
+        <p class="item1">2016-2018</p>
+        <p class="item2">Administrador Senior</p>
+        <p class="item3">CENTRO INTEGRAL IMAS. Caracas, Venezuela </p>
+    </div>
+
+    <hr class="caja2"></hr>
+    <div class="alig3">
+        <p class="item1">2006-2016</p>
+        <p class="item2">Administração e Assistente de Produção e Direção</p>
+        <p class="item3">GRUPO ORIGEN. Caracas, Venezuela</p>
+    </div>
+</section>  
+
+<section class="projetos">
+    <h2 class="item4"id="quarto">Projetos</h2>
+
+    <hr class="caja1"></hr>
+    <div class="alig3"> 
+        <p class="item1">2021</p>
+        <p class="item3"> Projetos HTML <a href="https://github.com/brabikiu/Toti-HTML" target="_blank" rel="noopener"> Repositorio Github</a></p>
+        <p class="item3"> Criação de site HTML, "Studio Yoga" "Receita Ceviche"</p>
+        <p class="item3"> Projetos CSS" <a href="https://github.com/brabikiu/Toti-CCS" target="_blank" rel="noopener"> Repositorio Github</a></p>
+        <p class="item3"> Atualizaçao site CSS, "Studio Yoga" "Receita Ceviche"</p>
+    </div>
+
+    <hr class="caja2"></hr>
+    <div class="alig3">
+        <p class="item1">2018</p>
+        <p class="item3">Blog Projeto Universitario <a href="http://brigadaecologicaunesr.blogspot.com/" target="_blank" rel="noopener">Projeto Orquidea</a></p>
+        <p class="item3">Criação plataforma Blogger, "Preservaçao Flor de Maio"</p>
+        <p class="item1">2014</p>
+        <p class="item2">Site em WordPress </p>
+        <p class="item3">Criaçao site Intercmedia (empresa fechada)<a href="https://www.linkedin.com/company/intercmedia" target="_blank" rel="noopener">(Intercmedia)</a></p>
+    </div>
+    <div> 
+        <hr class="caja2"></hr>
+        <div class="alig3">
+            <p class="item1">Meus projetos como desenvolvedor</p>
+ </div>
+   
+
+</section>
+
+<!--------Setimo--------->
+    <section class="contact">
+       
+        <h2 class="cont">Contato</h2>
+        <div id="quinto" class="content-cont">
+            <p>Fala comigo!</p>
+            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+            <p>Você também pode me encontrar nas seguintes redes sociais:</p>
+        </div>
+        
+
+        <div class="Formulario">
+            <form> 
+                <form> 
                     <div>
-                        <img>
-                        <h3> <u>Site de Studio de Yoga</u><em> HTML</em></h3>
-                        <img src="Ananda Site.png" alt="Ananda Site.png" width="500"> 
-                        <p>
-                           Site de um Studio de Yoga, con imagens e informações do studio.        
-                        </p>
-                        <a href="http://htmlpreview.github.io/?https://github.com/brabikiu/Toti-Curso/blob/master/AnandaShala.html" target="_blank" valor="noopener">Vamos Olhar</a>
+                        <label for="nome">NOME E SOBRENOME</label>
+                        <input type="text" id="nome" name="nome" placeholder="  Seu nome" required>
+                    </div> 
+                    <div>
+                        <label for="email">E-MAIL</label>
+                        <input type="email" id="email" name="email" placeholder="  example@email.com"required>
                     </div>
-
-   <footer>
-   <h2 align="left" id="Falemos">FALEMOS</h2>
-
-   <form class="formulario" method="post"> 
-                <p> Envie uma mensagem preenchendo o formulário abaixo</p>
-
-                <div class="field">
-                    <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                    <div>
+                        <label for="subject">ASSUNTO</label>
+                        <input type="text" id="assunto" name="assunto" required> 
+                    </div>
+                    <div>
+                        <label for="mensagem">MESSAGE</label>
+                        <textarea id="msg" name="subject" required></textarea>
+                    </div>
+                    <label class="button"><input type="submit" value="Enviar" class="submit" id="button"></label>
+                    <div>   
                 </div>
+            </form>
+        </div>
+    </section>
 
-                <div class="field">
-                    <label for="telefone">Seu Telefone:</label>
-                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
-                </div>
-                <div class="field">
-                    <label for="email">Seu E-Mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
-                </div>    
+    <footer>
+        </div>
+        
 
-                 <div class="field">
-                    <label for="mensagem">Sua mensagem:</label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-                </div>
-                <input type="submit" name="acao" value="Enviar">
-    </form>
-                
 
-    <h4 align="right" id="#Minhasredes">Minhas Redes</h4>
-
-            <div align="right"href="https://www.linkedin.com/in/barbaravillegas/" target="_blank" valor="noopener"><img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b32227feb591.jpg" alt="Linkedin Logo width="50" height="80"></div>
-            <div align="right"href="https://github.com/brabikiu" target="_blank" valor="noopener"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Git hub Logo width="40" height="50"></div>
-          </footer>
+       <p>Brabikiu©  All Rights Reserved</p>
+       <p></p>
     </footer>
+
+  
 </body>
 </html>
-
