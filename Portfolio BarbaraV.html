@@ -16,12 +16,14 @@
 
         <nav>           
             <ul class="list-menu">
-                <li><a href="#saudar">Sobre</a></li>
-                <li><a href="#primeiro">Formação</a></li>
-                <li><a href="#segundo">Cursos</a></li>
-                <li><a href="#terceiro">Experiência</a></li>
-                <li><a href="#quarto">Projetos</a></li>
-                <li><a href="#quinto">Contato</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#formaçao">FORMAÇAO</a></li>
+                <li><a href="#cursos">CURSOS</a></li>
+                <li><a href="#experiencia">EXPERIẼNCIA</a></li>
+                <li><a href="#projeto">PROJETOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+
+
         </nav>
     </div>
 
@@ -53,16 +55,16 @@
         
         <section class="content">
 
-            <h2 id="saudar" class="saudar">Olá!</h2>
+            <h2 id="sobre" class="saudar">Olá!</h2>
             
             
-            <p class="apresentação">Eu su Bárbara,Venezuelana, de profisião Administrador em Marketing com mais de 10 anos de experiencia especialista em gerenciamento de redes sociais e atualmente estudante de desenvolvimento web com a plataforma de ensino <a href="https://totidiversidade.com.br/"target="_blank" valor="noopener">Toti Diversidade</a> uma plataforma de ensino que forma refugiados e imigrante.</p>
+            <p class="apresentação">Eu su Bárbara,Venezuelana, de profisião Administrador em Marketing com mais de 10 anos de experiencia especialista em gerenciamento de redes sociais e atualmente estudante de desenvolvimento web com a plataforma de ensino <a href="https://totidiversidade.com.br/"target="_blank" valor="noopener">Toti Diversidade</a> uma plataforma de ensino que forma refugiados e imigrantes.</p>
 
         
         </section>
 <!-----------Formação------------->
 <section class="educaçao">
-    <h2 id="primeiro">Formaçao</h2>
+    <h2 class="titulo" id="formaçao">Formaçao</h2>
 
     <hr class="caja1"></hr>
     <div class="alig3"> 
@@ -80,7 +82,7 @@
 </section>
 <!-----------Cursos-------------->
 <section class="cursos">
-    <h2 id="segundo">Cursos</h2>
+    <h2 class="titulo" id="cursos">Cursos</h2>
     
     <hr class="caja3"></hr>
     <div class="alig3"> 
@@ -100,8 +102,8 @@
 </section> 
 <!-----------experiência-------------->
 
-<section class="experiência">
-    <h2 id=terceiro>Experiência</h2>
+<section class="experiencia">
+    <h2 class="titulo" id=experiencia>Experiência</h2>
 
     <hr class="caja1"></hr>
     <div class="alig3"> 
@@ -128,7 +130,7 @@
 
 
 <section class="projetos">
-    <h2 class="item4"id="quarto">Projetos</h2>
+    <h2  class="titulo"class="item4"id="orojetos">Projetos</h2>
 
     <hr class="caja1"></hr>
     <div class="alig3"> 
@@ -151,20 +153,36 @@
     <div> 
         <hr class="caja2"></hr>
         <div class="alig3">
-            <p class="item1">Meus projetos como desenvolvedor</p>
+            <p class="item1">Meus projetos em programaçao</p>
  </div>
    
 
+</section>
+<!-----------Repositorios-------------->
+
+
+<section class="repositorios">
+    <h2 class="titulo" class="item4"id="projeto">Repositorios
+        <p class="item1">Minha evolução como Desenvolvedor web </p>
+
+        
+            <section class="rep">
+                <div id="repositorios" class="repositories"></div>
+            </section>
 </section>
 
 <!--------Footer--------->
     <section class="contacto">
        
         <h2 class="contact">Contato</h2>
-        <div id="quinto" class="content-1">
+        <div id="contato" class="contato">
             <p>Fala comigo!</p>
             <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
             <p>Você também pode me encontrar nas seguintes redes sociais:</p>
+            <a href="https://twitter.com/brabikiu" target="_blank" rel="noopener"> <img class="icon1"  src="twitter_icon.png" alt="link-icon" ></a>
+            <a href="https://www.facebook.com/BalejadraVillegas" target="_blank" rel="noopener"> <img class="icon1"  src="facebook_icon.png" alt="link-icon" ></a>
+            <a href="https://www.instagram.com/brabikiu/" target="_blank" rel="noopener"> <img class="icon1"  src="instagram_icon.png" alt="link-icon" ></a>
+
         </div>
         
 
@@ -173,21 +191,21 @@
                 <form> 
                     <div>
                         <label for="nome">NOME E SOBRENOME</label>
-                        <input type="text" id="nome" name="nome" placeholder="  Seu nome" required>
+                        <input type="text" id="nome" name="nome" placeholder= "Seu nome" required>
                     </div> 
                     <div>
                         <label for="email">E-MAIL</label>
-                        <input type="email" id="email" name="email" placeholder="  example@email.com"required>
+                        <input type="email" id="email" name="email" placeholder=" exemplo@email.com" required>
                     </div>
                     <div>
-                        <label for="subject">ASSUNTO</label>
+                        <label for="assunto">ASSUNTO</label>
                         <input type="text" id="assunto" name="assunto" required> 
                     </div>
                     <div>
-                        <label for="mensagem">MESSAGE</label>
-                        <textarea id="msg" name="subject" required></textarea>
+                        <label for="mensagem">MESSAGEM</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
                     </div>
-                    <label class="button"><input type="submit" value="Enviar" class="submit" id="button"></label>
+                    <label class="button"><input type="submit" value="Enviar" class="submit" id="button" required></label>
                     <div>   
                 </div>
             </form>
@@ -203,6 +221,7 @@
        <p></p>
     </footer>
 
-  
+    <script src="validar.js"></script>
+    <script src="Repositorios.js"></script>
 </body>
 </html>

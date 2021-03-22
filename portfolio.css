@@ -155,13 +155,14 @@ img .banner{
     left: 1px;
     width: 1919px;
     height: 353px;
+    padding-top: 34px;
     left: 1px;
     background:#DEDEDE 0% 0% no-repeat padding-box;;
     opacity: 1;
    
 }
 
-#primeiro {
+.titulo {
     top: 1326px;
     left: 561px;
     margin-top: 5px;
@@ -279,18 +280,6 @@ img .banner{
     padding-bottom: -24px;
 }
 
-#segundo {
-    top: 1326px;
-    margin-left: 561px;
-    margin-top: 5px;
-    width: 258px;
-    height: 73px;
-    text-align: left;
-    font-size: 55px;
-    letter-spacing: 0px;
-    color:#707070;
-    opacity: 1;
-}
 .caja3 {
     display: inline-block;
     margin-top: 30px;
@@ -328,35 +317,7 @@ img .banner{
     padding-bottom: -24px;
 }
 
-#terceiro {
-    top: 1326px;
-    margin-left: 561px;
-    margin-top: 5px;
-    width: 258px;
-    height: 73px;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 300;
-    letter-spacing: 0px;
-    color:#707070;
-    opacity: 1;
-}
-
-#quarto {
-    top: 1326px;
-    left: 561px;
-    margin-top: 5px;
-    width: 258px;
-    height: 73px;
-    margin-left: 561px;
-    margin-top: 4px;
-    text-align: center;
-    font-size: 55px;
-    letter-spacing: 0px;
-    color:#707070;
-    opacity: 1;
-}
-/*-------Footer-------*/
+/*-------Projetos-------*/
 
 .projetos {
     top: 939px;
@@ -364,17 +325,76 @@ img .banner{
     width: 1919px;
     height: 550px;
     margin-bottom: 4px;
-    padding-top: 10px;
+    padding-top: 34px;
     padding-bottom: -24px;
 }
+
+
+/*-------Projetos-------*/
+
+
+.repositorios {
+    width: 1919px;
+    height: 500px;
+    top: 939px;
+    background: #434343 0% 0% no-repeat padding-box;;
+    opacity: 1;
+    padding-top: 34px;
+
+}
+.rep {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    
+}
+
+.repositories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.project {
+    background-color: transparent;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 150px;
+    height: 90px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #df7512;
+
+}
+
+.archive:hover {
+    background-color: blue;
+    justify-content: center;
+    transition: all 0.4s; 
+    color:black;  
+}
+
 /*------Contato--------*/
+
+
 .contacto {
     width: 1919px;
     height: 373px;
     background: black;
     opacity: 1;
     padding-top: 35px;
-    margin-top: 10px;
 }
 .contact {
     margin-top: 1px;
@@ -388,7 +408,7 @@ img .banner{
     opacity: 1;
     padding-top: -34px;
 }
-.content-1 {
+.contato {
     width: 390px;
     height: 200px;
     text-align: left;
@@ -580,7 +600,7 @@ footer p {
         opacity: 1;
        
     }
-    #primeiro {
+    .titulo {
         top: 1326px;
         left: 561px;
         margin-top: 5px;
@@ -593,49 +613,9 @@ footer p {
         letter-spacing: 0px;
         color:#707070;
         opacity: 1;
-    }
+    } 
     
-    #segundo {
-        top: 1326px;
-        margin-left: 50px;
-        margin-top: 5px;
-        margin-left: 150px;
-        width: 258px;
-        height: 73px;
-        text-align: center;
-        font-size: 35px;
-        letter-spacing: 0px;
-        color:#707070;
-        opacity: 1;
-    }
-
-    #terceiro {
-        top: 1326px;
-        margin-left: 50px;
-        margin-top: 5px;
-        margin-left: 150px;
-        width: 258px;
-        height: 73px;
-        font-size: 35px;
-        font-weight: 300;
-        letter-spacing: 0px;
-        color:#707070;
-        opacity: 1;
-    }
-    #quarto {
-        top: 1326px;
-        left: 50px;
-        margin-top: 5px;
-        width: 258px;
-        height: 73px;
-        margin-left: 150px;
-        margin-top: 4px;
-        text-align: left;
-        font-size: 35px;
-        letter-spacing: 0px;
-        color:#707070;
-        opacity: 1;
-    }
+   
     .item1 {
         top: 1082px;
         width: 109px;
@@ -742,16 +722,7 @@ footer p {
         opacity: 1;
         padding-top: -34px;
     }
-    .content-cont {
-        width: 390px;
-        height: 200px;
-        text-align: left;
-        font-size:21px;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        margin-left: 150px;
-    }
+  
 
 
 .Formulario {
